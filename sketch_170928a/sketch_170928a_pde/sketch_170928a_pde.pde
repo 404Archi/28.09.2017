@@ -32,7 +32,7 @@ void draw()
   {
     x=0;
     y=0;
-    rozmiar=(int)random(1,10);
+    rozmiar=(int)random(10,50);
     background(255);
   }
 }
