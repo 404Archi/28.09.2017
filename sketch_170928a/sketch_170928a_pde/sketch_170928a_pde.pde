@@ -14,8 +14,12 @@ void setup()
 void draw()
 {
   int los=(int)random(0, 101);
-  stroke(random(256), random(256), random(256));
- // strokeWeight(random(100));
+   stroke(random(256), random(256), random(256));
+  //strokeWeight(random(100));
+  //int losKolor=(int)random(0, 3);
+  //if (losKolor==0)stroke(#03FF8F);
+  //if (losKolor==1)stroke(#1203FF);
+  //if (losKolor==2)stroke(#FF0004);
   if (los>=50)  line(x, y, rozmiar+x, rozmiar+y);
   else line(x+rozmiar, y, x, rozmiar+y);
   x=x+rozmiar;
