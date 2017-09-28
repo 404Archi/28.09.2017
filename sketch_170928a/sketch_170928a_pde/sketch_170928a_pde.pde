@@ -14,7 +14,7 @@ void setup()
 void draw()
 {
   int los=(int)random(0, 101);
-   stroke(random(256), random(256), random(256));
+  //stroke(random(256), random(256), random(256));
   //strokeWeight(random(100));
   //int losKolor=(int)random(0, 3);
   //if (losKolor==0)stroke(#03FF8F);
@@ -32,7 +32,7 @@ void draw()
   {
     x=0;
     y=0;
-    rozmiar=(int)random(50);
+    rozmiar=(int)random(1,10);
     background(255);
   }
 }
